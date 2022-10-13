@@ -8,7 +8,9 @@ cache_dir = '.\.cache'
 [[project.requirements]]
 contract_id = 'SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.nft-trait'
 
-[contracts]
+[contracts.nft-tokens]
+path = 'contracts/nft-tokens.clar'
+clarity_version = 1
 [repl.analysis]
 passes = ['check_checker']
 
